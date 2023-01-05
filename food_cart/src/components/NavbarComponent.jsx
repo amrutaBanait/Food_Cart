@@ -27,7 +27,35 @@ const Navbar = () => {
           <p className="p-2">Pickup</p>
         </div>
       </div>
-      
+      {/* Search Input  */}
+
+      <div
+        className="bg-gray-200 rounded-full flex items-center px-2 w-[200px]
+          sm:w-[400px] lg:w-[500px]"
+      >
+        <AiOutlineSearch size={25} />
+        <input
+          type="text"
+          className="bg-transparent w-full focus:outline-none p-2"
+          placeholder="Search for foods, restaurants, cuisines"
+        />
+      </div>
+      </div>
+      {/* Cart button  */}
+      <button
+        className="bg-black text-white 
+      hidden md:flex items-center py-2 rounded-full"
+      >
+        <BsFillCartFill size={20} className="mr-2" /> Cart
+      </button>
+      {/* Mobile Menu  */}
+      {/* { overlay} */}
+
+      {nav ? (
+        <div className="bg-black/80 fixed w-full h-screen z-10 top-0 left-0"></div>
+      ) : (
+        ""
+      )}
       
       
     
