@@ -23,7 +23,7 @@ function HomeCards() {
         {/* Overlay */}
         <div className="absolute w-full h-full bg-black/50 
         rounded-xl text-white">
-          <p className="font-semibold text-2xl px-2 pt-4">New Restaurants</p>
+          <p className="font-semibold text-2xl px-2 pt-4">Pizza Bites</p>
           <p className="px-2">Added Daily</p>
           <button className="border-white bg-white rounded-xl p-1 rounded text-black mx-2 absolute bottom-4">Order Now</button>
         </div>
@@ -35,7 +35,7 @@ function HomeCards() {
         {/* Overlay */}
         <div className="absolute w-full h-full bg-black/50 
         rounded-xl text-white">
-          <p className="font-semibold text-2xl px-2 pt-4">Desserts Rush</p>
+          <p className="font-semibold text-2xl px-2 pt-4">Burger Fav's</p>
           <p className="px-2">Tasty Treats</p>
           <button className="border-white bg-white rounded-xl p-1 rounded text-black mx-2 absolute bottom-4">Order Now</button>
         </div>
