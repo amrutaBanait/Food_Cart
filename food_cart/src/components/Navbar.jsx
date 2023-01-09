@@ -17,6 +17,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   return (
     <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4">
+      
       {/* Left Side  */}
       <div className="flex items-center">
         <div onClick={() => setNav(!nav)} className="cursor-pointer">
@@ -42,6 +43,7 @@ const Navbar = () => {
           placeholder="Search for foods, restaurants, cuisines"
         />
       </div>
+
      {/* Cart button  */}
      <button
         className="bg-black text-white 
@@ -49,6 +51,7 @@ const Navbar = () => {
       >
         <BsFillCartFill size={20} className="mr-2" /> Cart
       </button>
+
 {/* Mobile Menu  */}
       {/* { overlay} */}
 
@@ -57,6 +60,7 @@ const Navbar = () => {
       ) : (
         ""
       )}
+
        {/* Side drawer Menu  */}
        <div
         className={
