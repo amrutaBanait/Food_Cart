@@ -8,9 +8,9 @@ function HomeCards() {
          {/* Overlay */}
         <div className="absolute w-full h-full bg-black/50 
         rounded-xl text-white">
-          <p className="font-semibold text-2xl px-2 pt-4">Sun's Out,Food</p>
+          <p className="font-bold text-2xl px-2 pt-4">Sun's Out,Food</p>
           <p className="px-2">Through 8/26</p>
-          <button className="border-white bg-white rounded-xl rounded text-black mx-2 absolute bottom-4">
+          <button className="border-white bg-white rounded-xl p-1 rounded text-black mx-2 absolute bottom-4">
             Order Now
           </button>
         </div>
