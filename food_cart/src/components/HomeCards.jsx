@@ -19,6 +19,30 @@ function HomeCards() {
           alt=""
         />
       </div>
+      <div className="rounded-xl relative">
+        {/* Overlay */}
+        <div className="absolute w-full h-full bg-black/50 
+        rounded-xl text-white">
+          <p className="font-semibold text-2xl px-2 pt-4">New Restaurants</p>
+          <p className="px-2">Added Daily</p>
+          <button className="border-white bg-white text-black mx-2 absolute bottom-4">Order Now</button>
+        </div>
+        <img
+        className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl"
+         src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/pizza-bread-with-tomatoes-and-rocket-sliced-on-a-wooden-board-ludger-rose.jpg" alt="" />
+      </div>
+      <div className="rounded-xl relative">
+        {/* Overlay */}
+        <div className="absolute w-full h-full bg-black/50 
+        rounded-xl text-white">
+          <p className="font-semibold text-2xl px-2 pt-4">Desserts Rush</p>
+          <p className="px-2">Tasty Treats</p>
+          <button className="border-white bg-white text-black mx-2 absolute bottom-4">Order Now</button>
+        </div>
+        <img
+        className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl"
+         src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/chicken-burger-with-chips-garlick-ian.jpg" alt="" />
+      </div>
     </div>
   );
 }
