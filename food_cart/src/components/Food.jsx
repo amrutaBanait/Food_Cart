@@ -17,6 +17,16 @@ const Food = () => {
             })
         )
     }
+
+     //   Filter by price
+  const filterPrice = (price) => {
+    setFoods(
+      data.filter((item) => {
+        return item.price === price;
+      })
+    );
+  };
+  
     return(
         <div>
             <h1>
