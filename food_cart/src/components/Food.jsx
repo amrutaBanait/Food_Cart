@@ -101,11 +101,29 @@ const Food = () => {
               $$$$
             </button>
           </div>
-        </div>
-        
-          
+        </div> 
       </div>
-
+        {/* Display foods */}
+      <div >
+        {foods.map((item, index) => (
+          <div
+            key={index}
+          >
+            <img
+              src={item.image}
+              alt={item.name}
+            />
+            <div >
+              <p>{item.name}</p>
+              <p>
+                <span>
+                  {item.price}
+                </span>
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
 
         </div>
     )
