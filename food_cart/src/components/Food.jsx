@@ -109,10 +109,12 @@ const Food = () => {
         {foods.map((item, index) => (
           <div
             key={index}
+            className='border shadow-lg rounded-lg hover:scale-105 duration-300'
           >
             <img
               src={item.image}
               alt={item.name}
+              className='w-full h-[200px] object-cover rounded-t-lg'
             />
             <div >
               <p>{item.name}</p>
