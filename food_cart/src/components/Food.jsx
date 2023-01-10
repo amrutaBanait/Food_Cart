@@ -38,11 +38,11 @@ const Food = () => {
 
         {/* Fliter Type */}
         <div>
-          <p className='font-bold text-gray-700'>Filter Type</p>
-          <div className='flex justfiy-between flex-wrap'>
+        <p className='font-bold text-gray-700'>Filter Type</p>
+        <div className='flex justfiy-between flex-wrap'>
             <button
+            className='m-1  border-green-800 text-green-800 hover:bg-green-800 hover:text-white'
               onClick={() => setFoods(data)}
-              className='m-1 border-green-600 text-green-600 hover:bg-green-600 hover:text-white'
             >
               All
             </button>
@@ -78,7 +78,7 @@ const Food = () => {
           <div className='flex justify-between max-w-[390px] w-full'>
             <button
               onClick={() => filterPrice('$')}
-              className='m-1 border-green-600 text-green-600 hover:bg-green-600 hover:text-white'
+              className='m-1 border-black text-green-600 hover:bg-green-600 hover:text-white'
             >
               $
             </button>
@@ -104,7 +104,7 @@ const Food = () => {
         </div> 
       </div>
 
-        {/* Display foods */}
+        {/* Displaying foods */}
       <div className='grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4'>
         {foods.map((item, index) => (
           <div
